@@ -11,19 +11,20 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
-
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}      
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v7
-    
-    - name: Set up Python 
-      uses: actions/setup-python@v7 
-      with:
-        python-version: '3.14'
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Install Conad Env.
-      run: make install
-    
-    - name: Code formaters
-      run: make check
+      - name: Install miniconda and the env
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment.yml
+          activate-environment: <env-name>   
+          auto-activate-base: false
+      
+      - name: Ruff code check 
+        run: make check
