@@ -29,4 +29,6 @@ jos:
 
     - name: Install dependencies using Poetry
       run: poetry install
-      
+    
+    - name: Code formaters
+      run: poetry run make check
