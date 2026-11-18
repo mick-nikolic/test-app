@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read 
 
-jos:
+jobs:
   build:
     runs-on: ubuntu-latest 
 
