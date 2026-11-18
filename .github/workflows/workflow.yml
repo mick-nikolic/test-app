@@ -1,0 +1,32 @@
+name: App Workflow
+
+on:
+  push:
+    branches: [ "main" , "dev", "stage"]
+  pull_request:
+    branches: [ "main" , "dev", "stage" ]
+
+permissions:
+  contents: read 
+
+jos:
+  build:
+    runs-on: ubuntu-latest 
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v7
+    
+    - name: Set up Python 
+      uses: actions/setup-python@v7 
+      with:
+        python-version: '3.14'
+
+    - name: Install Poetry
+      run: | 
+        curl -sSL https://install.python-poetry.org | python -
+        export PATH=$HOME/.local/bin:$PATH 
+
+    - name: Install dependencies using Poetry
+      run: poetry install
+      
