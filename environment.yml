@@ -1,0 +1,12 @@
+name: mlops
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - anaconda
+  - pydantic-settings
+  - pydantic
+  - loguru
+  - scikit-learn
+  - pandas
+  - ruff

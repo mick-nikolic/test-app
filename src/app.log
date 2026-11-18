@@ -1,0 +1,72 @@
+2026-11-16 23:50:21.622 +01:00 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-16 23:50:21.634 +01:00 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-16 23:50:21.634 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-16 23:50:21.635 +01:00 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-16 23:50:21.651 +01:00 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-16 23:50:21.654 +01:00 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-16 23:50:21.654 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-16 23:50:21.654 +01:00 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-16 23:50:21.723 +01:00 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-16 23:50:45.632 +01:00 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-16 23:50:45.632 +01:00 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-16 23:50:45.632 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-16 23:50:45.632 +01:00 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-16 23:50:45.635 +01:00 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-16 23:50:45.636 +01:00 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-16 23:50:45.636 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-16 23:50:45.636 +01:00 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-16 23:50:45.645 +01:00 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 00:05:55.556 +01:00 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 00:05:55.556 +01:00 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 00:05:55.556 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 00:05:55.556 +01:00 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 00:05:55.562 +01:00 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 00:05:55.565 +01:00 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 00:05:55.565 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 00:05:55.565 +01:00 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 00:05:55.579 +01:00 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 00:15:36.381 +01:00 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 00:15:36.381 +01:00 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 00:15:36.381 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 00:15:36.381 +01:00 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 00:15:36.385 +01:00 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 00:15:36.386 +01:00 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 00:15:36.386 +01:00 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 00:15:36.386 +01:00 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 00:15:36.398 +01:00 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 00:16:01.795 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 00:16:01.795 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 00:16:01.796 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 00:16:01.796 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 00:16:01.808 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 00:16:01.810 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 00:16:01.810 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 00:16:01.810 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 00:16:01.884 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 00:25:09.428 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 00:25:09.429 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 00:25:09.429 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 00:25:09.429 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 00:25:09.434 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 00:25:09.435 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 00:25:09.435 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 00:25:09.435 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 00:25:09.448 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 12:13:17.927 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 12:13:17.931 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 12:13:17.931 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 12:13:17.931 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 12:13:17.943 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 12:13:17.944 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 12:13:17.944 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 12:13:17.944 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 12:13:18.015 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
+2026-11-17 12:47:17.644 | INFO     | model.model_service:load_model:21 - Loading model from model/models/logistic_regression_v3.
+2026-11-17 12:47:17.648 | INFO     | model.pipeline.preparation:prepare_df:11 - Loading a dataset.
+2026-11-17 12:47:17.648 | DEBUG    | model.pipeline.preparation:prepare_df:12 - Breast cancer dataset.
+2026-11-17 12:47:17.648 | INFO     | model.pipeline.collection:load_dataset:10 - Loading the Iris database.
+2026-11-17 12:47:17.661 | INFO     | model.pipeline.preparation:prepare_df:16 - Splitting predictors and target.
+2026-11-17 12:47:17.663 | INFO     | model.pipeline.preparation:prepare_df:19 - Train-test split.
+2026-11-17 12:47:17.663 | DEBUG    | model.pipeline.preparation:prepare_df:20 - Stratified split; Train size: 0.7; Seed for reproducibility: 12
+2026-11-17 12:47:17.663 | WARNING  | model.pipeline.preparation:prepare_df:23 - Note: proportion of the test set depends on the dataset size and your application; make sure to leave enough records for eval.
+2026-11-17 12:47:17.742 | INFO     | model.pipeline.preparation:prepare_df:31 - Input vector normalization.
