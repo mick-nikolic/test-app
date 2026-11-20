@@ -25,6 +25,7 @@ jobs:
           environment-file: environment.yml
           activate-environment: <env-name>   
           auto-activate-base: false
+          virtualenvs-in-project: true
       
       - name: Ruff code check 
         run: make check
